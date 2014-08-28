@@ -4,7 +4,7 @@
 	<cfset variables.input = createObject("component", "base.input.input") />
 
 	<cffunction name="store">
-		<cfset return = bus.execute("base.tr3nx.users.RegisterUserCommand", variables.input.all()) />
+		<cfset return = bus.execute("base.jacob.users.RegisterUserCommand", variables.input.all()) />
 
 	</cffunction>
 
